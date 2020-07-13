@@ -1,0 +1,383 @@
+CONSTTK const
+INTTK int
+IDENFR const_1
+ASSIGN =
+INTCON 102435
+<无符号整�?
+<整数>
+<常量定义>
+SEMICN ;
+CONSTTK const
+INTTK int
+IDENFR const_2
+ASSIGN =
+MINU -
+INTCON 4325355
+<无符号整�?
+<整数>
+<常量定义>
+SEMICN ;
+CONSTTK const
+CHARTK char
+IDENFR const_3
+ASSIGN =
+CHARCON g
+<常量定义>
+SEMICN ;
+<常量说明>
+INTTK int
+IDENFR var_1
+COMMA ,
+IDENFR var_2
+<变量定义>
+SEMICN ;
+INTTK int
+IDENFR var_3
+LBRACK [
+INTCON 100
+<无符号整�?
+RBRACK ]
+<变量定义>
+SEMICN ;
+<变量说明>
+INTTK int
+IDENFR aa
+<声明头部>
+LPARENT (
+INTTK int
+IDENFR a
+COMMA ,
+INTTK int
+IDENFR bb
+COMMA ,
+INTTK int
+IDENFR cc
+<参数�?
+RPARENT )
+LBRACE {
+INTTK int
+IDENFR c
+COMMA ,
+IDENFR d
+COMMA ,
+IDENFR e
+COMMA ,
+IDENFR f
+COMMA ,
+IDENFR g
+<变量定义>
+SEMICN ;
+CHARTK char
+IDENFR ppg
+<变量定义>
+SEMICN ;
+<变量说明>
+IDENFR c
+ASSIGN =
+IDENFR d
+<因子>
+<�?
+PLUS +
+LPARENT (
+INTCON 1
+<无符号整�?
+<整数>
+<因子>
+<�?
+PLUS +
+INTCON 3
+<无符号整�?
+<整数>
+<因子>
+<�?
+<表达�?
+RPARENT )
+<因子>
+<�?
+PLUS +
+IDENFR f
+<因子>
+MULT *
+LPARENT (
+INTCON 3
+<无符号整�?
+<整数>
+<因子>
+<�?
+PLUS +
+INTCON 4423
+<无符号整�?
+<整数>
+<因子>
+<�?
+<表达�?
+RPARENT )
+<因子>
+<�?
+PLUS +
+LPARENT (
+INTCON 324
+<无符号整�?
+<整数>
+<因子>
+<�?
+<表达�?
+RPARENT )
+<因子>
+<�?
+PLUS +
+LPARENT (
+IDENFR g
+<因子>
+<�?
+PLUS +
+IDENFR e
+<因子>
+<�?
+<表达�?
+RPARENT )
+<因子>
+<�?
+PLUS +
+IDENFR ppg
+<因子>
+<�?
+<表达�?
+<赋值语�?
+SEMICN ;
+<语句>
+RETURNTK return
+LPARENT (
+IDENFR c
+<因子>
+<�?
+<表达�?
+RPARENT )
+<返回语句>
+SEMICN ;
+<语句>
+<语句�?
+<复合语句>
+RBRACE }
+<有返回值函数定�?
+VOIDTK void
+MAINTK main
+LPARENT (
+RPARENT )
+LBRACE {
+INTTK int
+IDENFR a
+COMMA ,
+IDENFR b
+COMMA ,
+IDENFR c
+COMMA ,
+IDENFR d
+COMMA ,
+IDENFR e
+COMMA ,
+IDENFR f
+COMMA ,
+IDENFR g
+<变量定义>
+SEMICN ;
+<变量说明>
+IDENFR a
+ASSIGN =
+INTCON 3
+<无符号整�?
+<整数>
+<因子>
+<�?
+<表达�?
+<赋值语�?
+SEMICN ;
+<语句>
+IDENFR b
+ASSIGN =
+INTCON 34
+<无符号整�?
+<整数>
+<因子>
+<�?
+<表达�?
+<赋值语�?
+SEMICN ;
+<语句>
+IDENFR c
+ASSIGN =
+INTCON 3254
+<无符号整�?
+<整数>
+<因子>
+<�?
+<表达�?
+<赋值语�?
+SEMICN ;
+<语句>
+IDENFR d
+ASSIGN =
+MINU -
+INTCON 35
+<无符号整�?
+<整数>
+<因子>
+<�?
+<表达�?
+<赋值语�?
+SEMICN ;
+<语句>
+IDENFR e
+ASSIGN =
+INTCON 33247
+<无符号整�?
+<整数>
+<因子>
+<�?
+<表达�?
+<赋值语�?
+SEMICN ;
+<语句>
+IDENFR f
+ASSIGN =
+MINU -
+INTCON 654
+<无符号整�?
+<整数>
+<因子>
+<�?
+<表达�?
+<赋值语�?
+SEMICN ;
+<语句>
+IDENFR g
+ASSIGN =
+INTCON 33422
+<无符号整�?
+<整数>
+<因子>
+<�?
+<表达�?
+<赋值语�?
+SEMICN ;
+<语句>
+IDENFR a
+ASSIGN =
+IDENFR b
+<因子>
+<�?
+PLUS +
+IDENFR c
+<因子>
+<�?
+PLUS +
+IDENFR d
+<因子>
+<�?
+PLUS +
+IDENFR e
+<因子>
+<�?
+PLUS +
+LPARENT (
+IDENFR f
+<因子>
+MULT *
+IDENFR g
+<因子>
+<�?
+PLUS +
+LPARENT (
+IDENFR a
+<因子>
+<�?
+PLUS +
+IDENFR g
+<因子>
+<�?
+MINU -
+IDENFR e
+<因子>
+<�?
+PLUS +
+IDENFR f
+<因子>
+<�?
+<表达�?
+RPARENT )
+<因子>
+MULT *
+IDENFR d
+<因子>
+MULT *
+LPARENT (
+IDENFR f
+<因子>
+<�?
+MINU -
+IDENFR a
+<因子>
+<�?
+PLUS +
+LPARENT (
+IDENFR g
+<因子>
+<�?
+<表达�?
+RPARENT )
+<因子>
+<�?
+<表达�?
+RPARENT )
+<因子>
+<�?
+<表达�?
+RPARENT )
+<因子>
+<�?
+<表达�?
+<赋值语�?
+SEMICN ;
+<语句>
+IDENFR var_2
+ASSIGN =
+IDENFR const_2
+<因子>
+<�?
+PLUS +
+IDENFR const_1
+<因子>
+<�?
+PLUS +
+IDENFR var_1
+<因子>
+<�?
+<表达�?
+<赋值语�?
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR a
+<因子>
+<�?
+<表达�?
+RPARENT )
+<写语�?
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR var_2
+<因子>
+<�?
+<表达�?
+RPARENT )
+<写语�?
+SEMICN ;
+<语句>
+<语句�?
+<复合语句>
+RBRACE }
+<主函�?
+<程序>

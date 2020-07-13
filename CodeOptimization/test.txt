@@ -1,0 +1,100 @@
+block 0:
+	level: aa
+	prev: 
+	next: 
+	in: d e f g ppg 
+	out: 
+	midcodes:
+		int aa()
+			out : d e f g ppg 
+		para int a
+			out : d e f g ppg 
+		para int bb
+			out : d e f g ppg 
+		para int cc
+			out : d e f g ppg 
+		t$0 = 1 + 3
+			out : d e f g ppg t$0 
+		t$1 = d + t$0
+			out : e f g ppg t$1 
+		t$2 = 3 + 4423
+			out : e f g ppg t$1 t$2 
+		t$3 = f * t$2
+			out : e g ppg t$1 t$3 
+		t$4 = t$1 + t$3
+			out : e g ppg t$4 
+		t$5 = t$4 + 324
+			out : e g ppg t$5 
+		t$6 = g + e
+			out : ppg t$5 t$6 
+		t$7 = t$5 + t$6
+			out : ppg t$7 
+		t$8 = t$7 + ppg
+			out : t$8 
+		c = t$8
+			out : c 
+		ret c
+block 1:
+	level: main
+	prev: 
+	next: 
+	in: var_1 
+	out: 
+	midcodes:
+		void main()
+			out : var_1 
+		a = 3
+			out : a var_1 
+		b = 34
+			out : a b var_1 
+		c = 3254
+			out : a b c var_1 
+		t$9 = -35
+			out : a b c t$9 var_1 
+		d = t$9
+			out : a b c d var_1 
+		e = 33247
+			out : a b c d e var_1 
+		t$10 = -654
+			out : a b c d e t$10 var_1 
+		f = t$10
+			out : a b c d e f var_1 
+		g = 33422
+			out : a b c d e f g var_1 
+		t$11 = b + c
+			out : a d e f g t$11 var_1 
+		t$12 = t$11 + d
+			out : a d e f g t$12 var_1 
+		t$13 = t$12 + e
+			out : a d e f g t$13 var_1 
+		t$14 = f * g
+			out : a d e f g t$13 t$14 var_1 
+		t$15 = a + g
+			out : a d e f g t$13 t$14 t$15 var_1 
+		t$16 = t$15 - e
+			out : a d f g t$13 t$14 t$16 var_1 
+		t$17 = t$16 + f
+			out : a d f g t$13 t$14 t$17 var_1 
+		t$18 = t$17 * d
+			out : a f g t$13 t$14 t$18 var_1 
+		t$19 = f - a
+			out : g t$13 t$14 t$18 t$19 var_1 
+		t$20 = t$19 + g
+			out : t$13 t$14 t$18 t$20 var_1 
+		t$21 = t$18 * t$20
+			out : t$13 t$14 t$21 var_1 
+		t$22 = t$14 + t$21
+			out : t$13 t$22 var_1 
+		t$23 = t$13 + t$22
+			out : t$23 var_1 
+		a = t$23
+			out : a var_1 
+		t$24 = -4325355 + 102435
+			out : a t$24 var_1 
+		t$25 = t$24 + var_1
+			out : a t$25 
+		var_2 = t$25
+			out : a var_2 
+		printf a
+			out : var_2 
+		printf var_2

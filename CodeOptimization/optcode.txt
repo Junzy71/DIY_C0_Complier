@@ -1,0 +1,44 @@
+int aa()
+para int a
+para int bb
+para int cc
+t$0 = 1 + 3
+t$1 = d + t$0
+t$2 = 3 + 4423
+t$3 = f * t$2
+t$4 = t$1 + t$3
+t$5 = t$4 + 324
+t$6 = g + e
+t$7 = t$5 + t$6
+t$8 = t$7 + ppg
+c = t$8
+ret c
+void main()
+a = 3
+b = 34
+c = 3254
+t$9 = -35
+d = t$9
+e = 33247
+t$10 = -654
+f = t$10
+g = 33422
+t$11 = b + c
+t$12 = t$11 + d
+t$13 = t$12 + e
+t$14 = f * g
+t$15 = a + g
+t$16 = t$15 - e
+t$17 = t$16 + f
+t$18 = t$17 * d
+t$19 = f - a
+t$20 = t$19 + g
+t$21 = t$18 * t$20
+t$22 = t$14 + t$21
+t$23 = t$13 + t$22
+a = t$23
+t$24 = -4325355 + 102435
+t$25 = t$24 + var_1
+var_2 = t$25
+printf a
+printf var_2
